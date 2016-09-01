@@ -1,0 +1,115 @@
+*{padding:0;margin:0;}
+body{font:16px/1 sans-serif}
+
+
+/*VERTICAL MENU*/
+nav.vertical{
+  position: fixed;
+
+  width:200px;
+  height: 670px;
+  background: #4B0082	;
+  margin: 0px;
+  z-index: 1;
+}
+
+/* ALL UL */
+nav.vertical ul{
+  list-style: none;
+    margin: 0px;
+}
+/* ALL LI */
+nav.vertical li{
+  position:relative;
+    margin: 0px;
+}
+/* ALL A */
+nav.vertical a{
+  display:block;
+  color:#eee;
+  text-decoration:none;
+  padding:10px 15px;
+  background:#4B0082;
+  transition:0.2s;
+}
+/* ALL A HOVER */
+nav.vertical li:hover > a{
+  background:#778;
+}
+
+/* INNER UL HIDE */
+nav.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+/* INNER UL SHOW */
+nav.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+}
+
+.ul{
+   
+    position: absolute;
+    top: 200px;
+}
+.menuitem{
+	border: 1px solid black;
+	padding: 5px;
+	width: 160px;
+	display: inline-block;
+	text-align: center;	
+	float: right;
+	background-position: 100% .4em;
+  padding-right: .6em;
+  background: white ;
+}
+
+.concertar{
+  position: fixed;
+  content: "";
+  display: table;
+  clear: both;
+  width: 530px;
+  text-align: right;
+  z-index : 2;
+}
+
+.conteudo{
+    height: 100%;
+    width: 100%;
+}
+
+.fixaisso{
+    position: fixed;
+}
+
+.linksintexto{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+.body{
+    height: 780px;
+    width: 1350px;
+    position: absolute;
+    background: linear-gradient(white, #C4a7f2); /* Standard syntax (must be last) */
+    left: 0px;
+}
+
+
+.cores{
+    color : (#1e0126,#9a6bdb,#C4a7f2,#7847d7,#3e258a) ; /*roxo*/
+    color : (#b5e0f6,#012240,#0368a7,#0388a8,#08a3c2); /*tons de auzl*/
+}
