@@ -11,6 +11,7 @@ nav.vertical{
   background: #4B0082	;
   margin: 0px;
   z-index: 1;
+  
 }
 
 /* ALL UL */
@@ -101,11 +102,13 @@ nav.vertical li:hover > ul{
 }
 
 .body{
-    height: 780px;
-    width: 1350px;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    background: linear-gradient(white, #C4a7f2); /* Standard syntax (must be last) */
-    left: 0px;
+    background-image: url("teclado.jpg");
+    position: fixed;
+    z-index: -4;
+  
 }
 
 
@@ -113,3 +116,14 @@ nav.vertical li:hover > ul{
     color : (#1e0126,#9a6bdb,#C4a7f2,#7847d7,#3e258a) ; /*roxo*/
     color : (#b5e0f6,#012240,#0368a7,#0388a8,#08a3c2); /*tons de auzl*/
 }
+
+.fundobranco{
+  position: relative;
+  height: 1000px;
+  width: 900px;
+  background: white;
+  top:100px;
+  left: 330px;
+  border-radius: 2%;
+}
+

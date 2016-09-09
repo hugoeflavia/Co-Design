@@ -212,14 +212,7 @@ video#bgvid {
 	font-weight: bold;
 }
 
-.body2{
+body{
 	background-image: url("teclado.jpg");
 	
-}
-
-.layertext2{
-	position: relative;
-	top: 50%;
-	left: 20%;
-	max-width: 600px;
 }
