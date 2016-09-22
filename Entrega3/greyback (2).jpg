@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="greyback.jpg" themeId="0" version="65540" templateID="SimpleProjectTemplate">
+  <MediaItems>
+    <MediaItem id="1" filePath="C:\Users\Hugo\Documents\GitHub\Co-Design\Entrega3\polina.mp4" arWidth="1280" arHeight="720" duration="329.82949609999997" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="2" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474329193.mp4" arWidth="568" arHeight="320" duration="47.253" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="3" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474329157.mp4" arWidth="568" arHeight="320" duration="7.431" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="4" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474327521.mp4" arWidth="568" arHeight="320" duration="17.253" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="5" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474333114.mp4" arWidth="568" arHeight="320" duration="24.962" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="6" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474333047.mp4" arWidth="568" arHeight="320" duration="9.9619999999999997" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="7" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474333060.mp4" arWidth="568" arHeight="320" duration="9.9619999999999997" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="8" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474333080.mp4" arWidth="568" arHeight="320" duration="12.284000000000001" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="9" filePath="C:\Users\Hugo\Desktop\Videos para o site\video-1474333096.mp4" arWidth="568" arHeight="320" duration="13.561" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
+    <MediaItem id="10" filePath="C:\Users\Hugo\Documents\GitHub\Co-Design\Entrega3\greyback.jpg" arWidth="256" arHeight="181" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
+  </MediaItems>
+  <Extents>
+    <VideoClip extentID="11" gapBefore="0" mediaItemID="4" inTime="0" outTime="0" speed="1" stabilizationMode="0">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </VideoClip>
+    <VideoClip extentID="30" gapBefore="0" mediaItemID="5" inTime="0" outTime="0" speed="1" stabilizationMode="0">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </VideoClip>
+    <VideoClip extentID="31" gapBefore="0" mediaItemID="4" inTime="0" outTime="0" speed="1" stabilizationMode="0">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </VideoClip>
+    <ImageClip extentID="32" gapBefore="0" mediaItemID="10" duration="7">
+      <Effects>
+        <ShaderEffect effectTemplateID="CyanEffectTemplate">
+          <BoundProperties />
+        </ShaderEffect>
+      </Effects>
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ExtentSelector extentID="1" gapBefore="0" primaryTrack="true">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="32" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="2" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+    <ExtentSelector extentID="3" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+    <ExtentSelector extentID="4" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+  </Extents>
+  <BoundPlaceholders>
+    <BoundPlaceholder placeholderID="SingleExtentView" extentID="0" />
+    <BoundPlaceholder placeholderID="Main" extentID="1" />
+    <BoundPlaceholder placeholderID="SoundTrack" extentID="2" />
+    <BoundPlaceholder placeholderID="Text" extentID="4" />
+    <BoundPlaceholder placeholderID="Narration" extentID="3" />
+  </BoundPlaceholders>
+  <BoundProperties>
+    <BoundPropertyFloatSet Name="AspectRatio">
+      <BoundPropertyFloatElement Value="1.7777776718139648" />
+    </BoundPropertyFloatSet>
+    <BoundPropertyFloat Name="DuckedNarrationAndSoundTrackMix" Value="0.5" />
+    <BoundPropertyFloat Name="DuckedVideoAndNarrationMix" Value="0" />
+    <BoundPropertyFloat Name="DuckedVideoAndSoundTrackMix" Value="0" />
+    <BoundPropertyFloat Name="SoundTrackMix" Value="0" />
+  </BoundProperties>
+  <ThemeOperationLog themeID="0">
+    <MonolithicThemeOperations />
+  </ThemeOperationLog>
+  <AudioDuckingProperties emphasisPlaceholderID="Main" />
+</Project>
